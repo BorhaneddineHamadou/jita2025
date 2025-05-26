@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JITA 2025 - JITA</title>
-    <link rel="icon" href="img/icon.png" type="image/png">
+    <link rel="icon" href="img/icon_new.png" type="image/png">
     <style>
         * {
             margin: 0;
@@ -21,7 +21,7 @@
 
         /* Header */
         .header {
-            background: linear-gradient(135deg, #033A66 0%, #00B3D6 100%);
+            background: linear-gradient(135deg, #096B68 0%, #90D1CA 100%);
             color: white;
             padding: 1rem 0;
             position: relative;
@@ -57,7 +57,7 @@
             font-size: 1.2rem;
             color: white;
             padding: 1rem;
-            background: #033A66;
+            background: #096B68;
             text-align: center;
         }
 
@@ -87,7 +87,7 @@
 
         .submission-label {
             font-weight: 600;
-            color: #033A66;
+            color: #096B68;
             width: 220px;
             min-width: 200px;
         }
@@ -101,31 +101,7 @@
         .submission-value a:hover {
             text-decoration: underline;
         }
-
-
-        @media (max-width: 768px) {
-            .nav-toggle {
-                display: block;
-            }
-
-            .nav-menu {
-                display: none;
-                flex-direction: column;
-                background: #033A66;
-                overflow: hidden;
-            }
-
-            .nav-menu.active {
-                /* display: flex; */
-                max-height: 0px;
-            }
-
-            .nav-menu li {
-                border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-            }
-        }
-
-
+        
         .logo {
             display: flex;
             align-items: center;
@@ -174,7 +150,8 @@
 
         /* Navigation */
         .nav {
-            background: rgba(0, 0, 0, 0.9);
+            /* background: rgba(0, 0, 0, 0.9); */
+            background: #096B68;
             backdrop-filter: blur(10px);
             position: sticky;
             top: 0;
@@ -210,14 +187,14 @@
 
         .nav-menu a:hover {
             background: rgba(255, 255, 255, 0.1);
-            border-bottom-color: #033A66;
+            border-bottom-color: #096B68;
             transform: translateY(-2px);
         }
 
         /* Hero Section */
         .hero {
-            /* background: linear-gradient(135deg, #033A66 0%, #00B3D6 100%); */
-            background: linear-gradient(135deg, #033A66 0%, #00B3D6 100%);
+            /* background: linear-gradient(135deg, #096B68 0%, #90D1CA 100%); */
+            background: linear-gradient(135deg, #096B68 0%, #90D1CA 100%);
             color: white;
             padding: 4rem 0;
             text-align: center;
@@ -310,7 +287,7 @@
             transform: translateX(-50%);
             width: 60px;
             height: 4px;
-            background: linear-gradient(135deg, #033A66 0%, #00B3D6 100%);
+            background: linear-gradient(135deg, #096B68 0%, #90D1CA 100%);
             border-radius: 2px;
         }
 
@@ -357,7 +334,7 @@
         .stat-number {
             font-size: 2.5rem;
             font-weight: 700;
-            color: #033A66;
+            color: #096B68;
             margin-bottom: 0.5rem;
         }
 
@@ -379,7 +356,7 @@
             border-radius: 15px;
             box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
             transition: all 0.3s ease;
-            border-left: 5px solid #033A66;
+            border-left: 5px solid #096B68;
         }
 
         .program-card:hover {
@@ -390,7 +367,7 @@
         .program-time {
             font-size: 1.1rem;
             font-weight: 600;
-            color: #033A66;
+            color: #096B68;
             margin-bottom: 1rem;
         }
 
@@ -437,7 +414,7 @@
             width: 120px;
             height: 120px;
             border-radius: 50%;
-            background: linear-gradient(135deg, #033A66 0%, #00B3D6 100%);
+            background: linear-gradient(135deg, #096B68 0%, #90D1CA 100%);
             margin: 0 auto 1.5rem;
             display: flex;
             align-items: center;
@@ -456,7 +433,7 @@
 
         .speaker-title {
             font-size: 1rem;
-            color: #033A66;
+            color: #096B68;
             margin-bottom: 1rem;
         }
 
@@ -468,7 +445,7 @@
 
         /* Registration Section */
         .registration {
-            background: linear-gradient(135deg, #033A66 0%, #00B3D6 100%) !important;
+            background: linear-gradient(135deg, #096B68 0%, #90D1CA 100%) !important;
             color: white;
         }
 
@@ -601,7 +578,7 @@
 
         .info-card h3 {
             margin-bottom: 1rem;
-            color: #033A66;
+            color: #096B68;
         }
 
         .info-card ul {
@@ -625,7 +602,7 @@
 
         .topics-card h3 {
             margin-bottom: 1rem;
-            color: #033A66;
+            color: #096B68;
         }
 
         .topics-card p {
@@ -686,6 +663,36 @@
             scroll-behavior: smooth;
         }
 
+        @media (max-width: 768px) {
+            .nav-toggle {
+                display: block;
+            }
+
+            .event-date {
+                font-size: 0.9rem !important;
+            }
+
+            .event-location {
+                font-size: 0.7rem !important;
+            }
+
+            .nav-menu {
+                display: none;
+                flex-direction: column;
+                background: #096B68;
+                overflow: hidden;
+            }
+
+            .nav-menu.active {
+                display: unset;
+                max-height: 0px;
+            }
+
+            .nav-menu li {
+                border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            }
+        }
+
         /* Animation */
         @keyframes fadeInUp {
             from {
@@ -708,9 +715,9 @@
     <header class="header" style="background: white;">
         <div class="header-content" style="grid-template-columns: auto auto; justify-content: space-between;">
             <div class="logo" style="gap: 0;">
-                <img src="img/logo.png" alt="Conference Logo" style="height: 65px; width: auto;">
+                <img src="img/logo_new.png" alt="Conference Logo" style="height: 65px; width: auto;">
             </div>
-            <div class="event-details" style="text-align: right; color: #033A66;">
+            <div class="event-details" style="text-align: right; color: #096B68;">
                 <div class="event-date">October 16, 2025</div>
                 <div class="event-location">Plateau de Saclay, France</div>
             </div>
@@ -726,8 +733,8 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#program">Program</a></li>
-                <li><a href="#speakers">Organizers</a></li>
                 <li><a href="#submission">Submission</a></li>
+                <li><a href="#speakers">Organizers</a></li>
                 <li><a href="#registration">Registration</a></li>
                 <!-- <li><a href="#venue">Venue</a></li> -->
             </ul>
@@ -764,7 +771,7 @@
                     
                     <p></p>
                     <div style="height: 20px;"></div>
-                    <h3 style="color: #033A66;">Topics of Interest</h3>
+                    <h3 style="color: #096B68;">Topics of Interest</h3>
                     <p>Submissions are encouraged in areas including (but not limited to): 
 
                         Algorithms and Complexity, Bioinformatics, Centralized and Distributed algorithms, Cryptography and Security, 
@@ -850,7 +857,7 @@
         <div class="container">
             <div class="section-header">
                 <h2>Paper Submission</h2>
-                <p>All the essential information to submit your paper to JITA 2025</p>
+                <p>All submissions must be in English and submitted in PDF format. The extended abstracts, which can be up to 3 pages long, should include an abstract, a list of keywords, and references.</p>
             </div>
 
             <div class="submission-table">
@@ -883,7 +890,7 @@
                 <p>Meet the teams behind the success of JITA 2025</p>
             </div>
             <!-- Junior Committee -->
-            <h3 style="margin-bottom: 1rem; color: #033A66;">Junior Committee</h3>
+            <h3 style="margin-bottom: 1rem; color: #096B68;">Junior Committee</h3>
             <div class="speakers-grid">
                 
                 <div class="speaker-card">
@@ -893,11 +900,13 @@
                     <div class="speaker-name">Borhaneddine Hamadou</div>
                     <div class="speaker-title">PhD Student, CEA-List</div>
                     <div class="speaker-bio">-</div>
-                </div>
+                </div> 
                 <div class="speaker-card">
-                    <div class="speaker-avatar">ND</div>
+                    <div class="speaker-avatar" style="background: none; padding: 0;">
+                        <img src="img/Photo_noe.jpg" alt="Noé Demange" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+                    </div>
                     <div class="speaker-name">Noé Demange</div>
-                    <div class="speaker-title">PhD Student, -</div>
+                    <div class="speaker-title">PhD Student, Université de Versailles Paris-Saclay</div>
                     <div class="speaker-bio">-</div>
                 </div>
                 <div class="speaker-card">
@@ -909,7 +918,7 @@
             </div>
 
             <!-- Senior Committee -->
-            <h3 style="margin-top: 3rem; margin-bottom: 1rem; color: #033A66;">Senior Committee</h3>
+            <h3 style="margin-top: 3rem; margin-bottom: 1rem; color: #096B68;">Senior Committee</h3>
             <div class="speakers-grid">
                 <div class="speaker-card">
                     <div class="speaker-avatar">MR</div>
@@ -938,7 +947,7 @@
             </div>
 
             <!-- Local Arrangement -->
-            <h3 style="margin-top: 3rem; margin-bottom: 1rem; color: #033A66;">Local Arrangement</h3>
+            <h3 style="margin-top: 3rem; margin-bottom: 1rem; color: #096B68;">Local Arrangement</h3>
             <div class="speakers-grid">
                 <div class="speaker-card">
                     <div class="speaker-avatar">ML</div>
@@ -957,6 +966,7 @@
             <div class="section-header">
                 <h2>Registration</h2>
                 <p>Registration is free but mandatory and can be done online <a href="https://forms.gle/your-google-form-link" target="_blank">here</a>.</p>
+                <p>According to the conference policy, AT LEAST ONE author of each accepted paper MUST register.</p>
             </div>
         </div>
     </section>
@@ -1077,6 +1087,15 @@
                     navMenu.classList.toggle('active');
                 });
             }
+        });
+
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                const navMenu = document.getElementById('navMenu');
+                if (navMenu.classList.contains('active')) {
+                    navMenu.classList.remove('active');
+                }
+            });
         });
     </script>
 
